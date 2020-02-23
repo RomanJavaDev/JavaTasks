@@ -22,3 +22,24 @@
 Мельбурн Нью-Йорк Киев Вена Амстердам
 и т.п.
 ------
+
+# Task02
+Задача на применение анонимных классов
+
+1. Требуется восстановить логику метода someAction для поля solutionAction.
+2. Пример вывода:
+     * 5
+     * 4
+     * 3
+     * 2
+     * 1
+     * class FirstClass, method someAction
+     * class SecondClass, method someAction
+     * Specific action for anonymous SecondClass, param = 0
+     * Count of created Action objects is 2
+     * class SecondClass, method someAction
+     * Specific action for anonymous SecondClass, param = -1
+     * Count of created Action objects is 3
+
+3. Подсказка: метод someAction анонимного класса поля solutionAction должен вызвать метод сабкласса FirstClass, если param > 0, иначе вызвать метод сабкласса SecondClass.
+-----
